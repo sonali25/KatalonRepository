@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project with invalid OrgId</description>
+   <name>Create project with invalid OrgId</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8802e9a-f1e2-46d4-a7aa-9950dc38e437</testCaseGuid>
+   <variable>
+      <defaultValue>'36505676'</defaultValue>
+      <description></description>
+      <id>bd911067-448d-443a-a8c8-8efd6a1272fa</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

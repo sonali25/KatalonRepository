@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create entity without creation fields in API body</description>
+   <name>Create entity without creation fields in API body</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3f76ece-164e-43ed-b4aa-666b88715c7d</testCaseGuid>
+   <variable>
+      <defaultValue>'36505677'</defaultValue>
+      <description></description>
+      <id>bbf4e556-56ac-4279-aab6-74a7de356f99</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

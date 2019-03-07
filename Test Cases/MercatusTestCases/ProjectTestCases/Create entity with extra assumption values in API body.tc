@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create entity with extra assumption values in API body</description>
+   <name>Create entity with extra assumption values in API body</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8648da23-7667-4ddc-b052-c157a06202ea</testCaseGuid>
+   <variable>
+      <defaultValue>'36505672'</defaultValue>
+      <description></description>
+      <id>3e251461-b7bf-4174-a0d8-51bbe1e0c7b7</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

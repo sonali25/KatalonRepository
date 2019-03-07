@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create entity with invalid/Blank entity category name</description>
+   <name>Create entity with invalid-Blank entity category name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f23f1a07-69e3-483d-923b-1d297d1ce966</testCaseGuid>
+   <variable>
+      <defaultValue>'36505678'</defaultValue>
+      <description></description>
+      <id>237b326e-4ef8-487e-ba03-1e391bdbeac7</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

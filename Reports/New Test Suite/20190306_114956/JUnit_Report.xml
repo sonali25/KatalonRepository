@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="12" timestamp="2019-03-06 11:50:01" hostname="sonalid - ULTP_594.synerzipune.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\API-test\\Reports\\New Test Suite\\20190306_114956"/>
+         <property name="logFiles" value="E:\\API-test\\Reports\\New Test Suite\\20190306_114956\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sonalid - ULTP_594.synerzipune.local"/>
+         <property name="hostAddress" value="172.24.4.93"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId" status="PASSED">
+         <system-out><![CDATA[2019-03-06 11:50:02 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId: Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId
+
+2019-03-06 11:50:02 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project with invalid org id", ["Authorization":Authorization, "url3":findTestData("Create Entity").getValue(1, 1)])): Send request successfully
+
+2019-03-06 11:50:13 - [MESSAGE][INFO] - HAR: E:\API-test\Reports\New Test Suite\20190306_114956\requests\main\0.har
+
+2019-03-06 11:50:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-06 11:50:13 - [TEST_STEP][PASSED] - containsString(Response, "Access Denied.", false): Check contain string successfully
+
+2019-03-06 11:50:13 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-06 11:50:13 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-06 11:50:13 - [TEST_STEP][PASSED] - try: null
+
+2019-03-06 11:50:13 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-06 11:50:13 - [TEST_STEP][PASSED] - catch (NullPointerException ex): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-06 11:50:01 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

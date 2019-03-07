@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-03-06 15:13:55,2019-03-06 15:14:20,24.462s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId,,Create project with invalid OrgId,2019-03-06 15:13:56,2019-03-06 15:14:04,7.721s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project with invalid org id"", [""Authorization"":Authorization, ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""testrail_tc_id"":""36505676""]))",,,2019-03-06 15:13:57,2019-03-06 15:14:04,7.112s,PASSED
+"containsString(Response, ""Access Denied."", false)",,,2019-03-06 15:14:04,2019-03-06 15:14:04,0.026s,PASSED
+Start listener action : afterTestCase,,,2019-03-06 15:14:04,2019-03-06 15:14:04,0.076s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name,,Create project without project name,2019-03-06 15:14:04,2019-03-06 15:14:13,8.642s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project without project name"", [""Authorization"":Authorization, ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""OrgId"":findTestData(""Create Entity"").getValue(2, 1)]))",,,2019-03-06 15:14:04,2019-03-06 15:14:13,8.296s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,2019-03-06 15:14:13,2019-03-06 15:14:13,0.017s,PASSED
+Start listener action : afterTestCase,,,2019-03-06 15:14:13,2019-03-06 15:14:13,0.012s,PASSED

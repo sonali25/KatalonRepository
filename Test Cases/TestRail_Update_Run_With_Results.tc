@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Handle communivation between Katalon Studio and TestRail</description>
+   <name>TestRail_Update_Run_With_Results</name>
+   <tag></tag>
+   <comment>request=&quot; + request.toString()
+response=&quot; + response.toString()</comment>
+   <testCaseGuid>e77608ff-63f4-4569-97db-4e27e375d767</testCaseGuid>
+</TestCaseEntity>

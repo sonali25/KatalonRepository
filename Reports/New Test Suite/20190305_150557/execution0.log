@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-05T15:06:01</date>
+  <millis>1551778561652</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2019-03-05T15:06:01</date>
+  <millis>1551778561694</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sonalid - ULTP_594.synerzipune.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sonalid - ULTP_594.synerzipune.local</property>
+</record>
+<record>
+  <date>2019-03-05T15:06:01</date>
+  <millis>1551778561712</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-03-05T15:06:01</date>
+  <millis>1551778561713</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.24.4.93</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.24.4.93</property>
+</record>
+<record>
+  <date>2019-03-05T15:06:01</date>
+  <millis>1551778561715</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-03-05T15:06:02</date>
+  <millis>1551778562274</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</property>
+  <property name="description">Create entity with extra assumption values in API body</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create entity with extra assumption values in API body.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T15:06:02</date>
+  <millis>1551778562598</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity with extra assumption values in API body\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>

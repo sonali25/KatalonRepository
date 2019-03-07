@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-03-05 15:55:32,2019-03-05 15:56:41,1m - 8.978s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body,,Create entity with extra assumption values in API body,2019-03-05 15:55:33,2019-03-05 15:55:41,8.461s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create entity with extra assumption values in API body"", [""OrgId"":findTestData(""Create Entity"").getValue(1, 1), ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""Authorization"":Authorization]))",,,2019-03-05 15:55:33,2019-03-05 15:55:41,8.069s,PASSED
+"containsString(Response, ""The application has encountered an error, Please retry."", false)",,,2019-03-05 15:55:41,2019-03-05 15:55:41,0.016s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:55:41,2019-03-05 15:55:41,0.040s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name,,Create entity with invalid/Blank entity category name,2019-03-05 15:55:41,2019-03-05 15:55:44,2.581s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create entity with invalid-Blank entity category name"", [""OrgId"":findTestData(""Create Entity"").getValue(1, 1), ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""Authorization"":Authorization]))",,,2019-03-05 15:55:42,2019-03-05 15:55:44,2.171s,PASSED
+"containsString(Response, ""The application has encountered an error, Please retry."", false)",,,2019-03-05 15:55:44,2019-03-05 15:55:44,0.002s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:55:44,2019-03-05 15:55:44,0.005s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body,,Create entity without creation fields in API body,2019-03-05 15:55:44,2019-03-05 15:55:47,3.475s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create entity without creation fields in API body"", [""OrgId"":findTestData(""Create Entity"").getValue(1, 1), ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""Authorization"":Authorization]))",,,2019-03-05 15:55:44,2019-03-05 15:55:47,3.197s,PASSED
+"containsString(Response, ""Error while creating project data"", false)",,,2019-03-05 15:55:47,2019-03-05 15:55:47,0.008s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:55:47,2019-03-05 15:55:47,0.005s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data,,Create project with incorrect assumption data,2019-03-05 15:55:47,2019-03-05 15:55:50,2.436s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project with incorrect assumption data"", [""Authorization"":Authorization, ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""OrgId"":findTestData(""Create Entity"").getValue(1, 1)]))",,,2019-03-05 15:55:48,2019-03-05 15:55:50,2.167s,PASSED
+"containsString(Response, ""The application has encountered an error, Please retry."", false)",,,2019-03-05 15:55:50,2019-03-05 15:55:50,0.001s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:55:50,2019-03-05 15:55:50,0.004s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId,,Create project with invalid OrgId,2019-03-05 15:55:50,2019-03-05 15:55:52,2.058s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project with invalid org id"", [""Authorization"":Authorization, ""url3"":findTestData(""Create Entity"").getValue(1, 1)]))",,,2019-03-05 15:55:50,2019-03-05 15:55:52,1.776s,PASSED
+"containsString(Response, ""Access Denied."", false)",,,2019-03-05 15:55:52,2019-03-05 15:55:52,0.002s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:55:52,2019-03-05 15:55:52,0.004s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions,,Create project without adding data for all assumptions,2019-03-05 15:55:52,2019-03-05 15:55:54,2.349s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project without adding data for all assumptions"", [""Authorization"":Authorization, ""OrgId"":findTestData(""Create Entity"").getValue(1, 1), ""url3"":findTestData(""Create Entity"").getValue(1, 1)]))",,,2019-03-05 15:55:52,2019-03-05 15:55:54,2.095s,PASSED
+"containsString(Response, ""The application has encountered an error, Please retry."", false)",,,2019-03-05 15:55:54,2019-03-05 15:55:54,0.002s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:55:54,2019-03-05 15:55:54,0.004s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name,,Create project without project name,2019-03-05 15:55:54,2019-03-05 15:56:40,46.012s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project without project name"", [""Authorization"":Authorization, ""url3"":findTestData(""Create Entity"").getValue(1, 1), ""OrgId"":findTestData(""Create Entity"").getValue(2, 1)]))",,,2019-03-05 15:55:54,2019-03-05 15:56:40,45.743s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,2019-03-05 15:56:40,2019-03-05 15:56:40,0.034s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 15:56:40,2019-03-05 15:56:40,0.003s,PASSED

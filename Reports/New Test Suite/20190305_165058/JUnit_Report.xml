@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="8" timestamp="2019-03-05 16:51:02" hostname="sonalid - ULTP_594.synerzipune.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\API-test\\Reports\\New Test Suite\\20190305_165058"/>
+         <property name="logFiles" value="E:\\API-test\\Reports\\New Test Suite\\20190305_165058\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sonalid - ULTP_594.synerzipune.local"/>
+         <property name="hostAddress" value="172.24.4.93"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId" classname="Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId" status="PASSED">
+         <system-out><![CDATA[2019-03-05 16:51:03 - [TEST_CASE][PASSED] - Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId: Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId
+
+2019-03-05 16:51:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Mercatus/Projects/Create Entity/Create project with invalid org id", ["Authorization":Authorization, "url3":findTestData("Create Entity").getValue(1, 1)])): Send request successfully
+
+2019-03-05 16:51:10 - [MESSAGE][INFO] - HAR: E:\API-test\Reports\New Test Suite\20190305_165058\requests\main\0.har
+
+2019-03-05 16:51:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-05 16:51:10 - [TEST_STEP][PASSED] - containsString(Response, "Access Denied.", false): Check contain string successfully
+
+2019-03-05 16:51:10 - [MESSAGE][PASSED] - Check contain string successfully
+
+2019-03-05 16:51:10 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2019-03-05 16:51:10 - [TEST_STEP][PASSED] - try: null
+
+2019-03-05 16:51:10 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2019-03-05 16:51:10 - [TEST_STEP][PASSED] - catch (NullPointerException ex): null
+
+2019-03-05 16:51:10 - [TEST_STEP][FAILED] - Start listener action : afterTestCase: Unable to call Test Case 'Test Cases/TestRail_Update_Run_With_Results' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TestRail_Update_Run_With_Results' failed because of error(s))
+
+2019-03-05 16:51:10 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Test Cases/TestRail_Update_Run_With_Results"), [:], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/TestRail_Update_Run_With_Results' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TestRail_Update_Run_With_Results' failed because of error(s))
+
+2019-03-05 16:51:10 - [TEST_CASE][ERROR] - Test Cases/TestRail_Update_Run_With_Results: Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: ConditionType for class: Testrail
+	at Testrail.get_tests(Testrail.groovy:17)
+	at Testrail.invokeMethod(Testrail.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TestRail_Update_Run_With_Results.run(TestRail_Update_Run_With_Results:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at QA_Testrail_Listener.afterTestCase(QA_Testrail_Listener.groovy:48)
+	at QA_Testrail_Listener.invokeMethod(QA_Testrail_Listener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:132)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:116)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:115)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:60)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:57)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:240)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551784858980.run(TempTestSuite1551784858980.groovy:36)
+
+
+2019-03-05 16:51:11 - [TEST_STEP][ERROR] - response = Testrail.get_tests(G_testrail_run_id): response = Testrail.get_tests(G_testrail_run_id) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: ConditionType for class: Testrail
+	at Testrail.get_tests(Testrail.groovy:17)
+	at Testrail.invokeMethod(Testrail.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TestRail_Update_Run_With_Results.run(TestRail_Update_Run_With_Results:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at QA_Testrail_Listener.afterTestCase(QA_Testrail_Listener.groovy:48)
+	at QA_Testrail_Listener.invokeMethod(QA_Testrail_Listener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:132)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:116)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:115)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:60)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:57)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:240)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551784858980.run(TempTestSuite1551784858980.groovy:36)
+
+
+2019-03-05 16:51:11 - [MESSAGE][ERROR] - No such property: ConditionType for class: Testrail
+
+2019-03-05 16:51:11 - [MESSAGE][ERROR] - response = Testrail.get_tests(G_testrail_run_id) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: ConditionType for class: Testrail
+	at Testrail.get_tests(Testrail.groovy:17)
+	at Testrail.invokeMethod(Testrail.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TestRail_Update_Run_With_Results.run(TestRail_Update_Run_With_Results:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at QA_Testrail_Listener.afterTestCase(QA_Testrail_Listener.groovy:48)
+	at QA_Testrail_Listener.invokeMethod(QA_Testrail_Listener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:132)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:116)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:115)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:60)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:57)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:240)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551784858980.run(TempTestSuite1551784858980.groovy:36)
+
+
+2019-03-05 16:51:11 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/TestRail_Update_Run_With_Results' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TestRail_Update_Run_With_Results' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 16:51:02 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

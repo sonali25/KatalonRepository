@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CreateValidProjectTestCase</description>
+   <name>CreateValidProjectTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1d555bd-bfbd-4604-b587-8d9a1d6ba664</testCaseGuid>
+   <variable>
+      <defaultValue>'159837'</defaultValue>
+      <description></description>
+      <id>ac6ddb56-7eb8-4193-9484-733e9585e20c</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

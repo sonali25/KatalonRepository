@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project with incorrect assumption data</description>
+   <name>Create project with incorrect assumption data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a4f73c6-d5ce-43fa-a7df-90cbae9ea979</testCaseGuid>
+   <variable>
+      <defaultValue>'36505674'</defaultValue>
+      <description></description>
+      <id>140a4828-85f9-4db2-9d4b-0ae173e2278e</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

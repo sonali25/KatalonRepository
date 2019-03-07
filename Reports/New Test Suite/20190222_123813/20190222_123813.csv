@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-02-22 12:38:21,2019-02-22 12:39:12,51.156s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/CreateValidProjectTestCase,,CreateValidProjectTestCase,2019-02-22 12:38:22,2019-02-22 12:39:03,41.476s,PASSED
+"response = sendRequest(findTestObject(""Mercatus/Projects/CreateValidProject"", [""url3"":findTestData(""Variables"").getValue(1, 1)]))",,,2019-02-22 12:38:22,2019-02-22 12:38:59,36.639s,PASSED
+"containsString(response, ""Jan-151"", false)",,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.013s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.007s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.172s,PASSED
+value = projectId,,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.016s,PASSED
+"println(""Project id extracted is: "" + value)",,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.008s,PASSED
+projId = value,,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.041s,PASSED
+println(projId),,,2019-02-22 12:38:59,2019-02-22 12:38:59,0.002s,PASSED
+"sendRequestAndVerify(findTestObject(""Mercatus/Portfolio/CreatePortfolio""))",,,2019-02-22 12:38:59,2019-02-22 12:39:03,3.968s,PASSED
+Start listener action : afterTestCase,,,2019-02-22 12:39:03,2019-02-22 12:39:03,0.248s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/UpdateValidAssumptionTestcase,,UpdateValidAssumptionTestcase,2019-02-22 12:39:03,2019-02-22 12:39:07,3.400s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/UpdateValidAssumption"", [""Projectid"":findTestData(""CreateProject2"").getValue(4, 1), ""AssumpId"":2]))",,,2019-02-22 12:39:04,2019-02-22 12:39:07,2.442s,PASSED
+"verifyMatch(""""assumptionId"":2,"", """"assumptionId"":2,"", true)",,,2019-02-22 12:39:07,2019-02-22 12:39:07,0.075s,PASSED
+Start listener action : afterTestCase,,,2019-02-22 12:39:07,2019-02-22 12:39:07,0.020s,PASSED

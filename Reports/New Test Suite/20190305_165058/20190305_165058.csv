@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-03-05 16:51:02,2019-03-05 16:51:11,8.729s,PASSED
+,,,,,,
+Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId,,Create project with invalid OrgId,2019-03-05 16:51:03,2019-03-05 16:51:11,7.770s,PASSED
+"Response = sendRequest(findTestObject(""Mercatus/Projects/Create Entity/Create project with invalid org id"", [""Authorization"":Authorization, ""url3"":findTestData(""Create Entity"").getValue(1, 1)]))",,,2019-03-05 16:51:03,2019-03-05 16:51:10,6.548s,PASSED
+"containsString(Response, ""Access Denied."", false)",,,2019-03-05 16:51:10,2019-03-05 16:51:10,0.025s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 16:51:10,2019-03-05 16:51:10,0.042s,PASSED
+Start listener action : afterTestCase,,,2019-03-05 16:51:10,2019-03-05 16:51:11,0.839s,FAILED

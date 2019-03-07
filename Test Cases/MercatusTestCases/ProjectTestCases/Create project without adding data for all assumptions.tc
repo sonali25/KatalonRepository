@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project without adding data for all assumptions</description>
+   <name>Create project without adding data for all assumptions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ecd8742-6527-42f9-a341-831ba7a7605a</testCaseGuid>
+   <variable>
+      <defaultValue>'36505675'</defaultValue>
+      <description></description>
+      <id>58f5f0ad-b9de-47f6-85be-13643868f60e</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>

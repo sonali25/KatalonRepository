@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-05T14:23:04</date>
+  <millis>1551775984130</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:04</date>
+  <millis>1551775984151</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = sonalid - ULTP_594.synerzipune.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">sonalid - ULTP_594.synerzipune.local</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:04</date>
+  <millis>1551775984154</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:04</date>
+  <millis>1551775984155</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.24.4.93</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.24.4.93</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:04</date>
+  <millis>1551775984158</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:04</date>
+  <millis>1551775984791</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</property>
+  <property name="description">Create entity with extra assumption values in API body</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create entity with extra assumption values in API body.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:05</date>
+  <millis>1551775985130</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity with extra assumption values in API body\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993021</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\API-test\\Reports\\New Test Suite\\20190305_142259\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a7d10017-a25f-4e8d-8058-363165815c76</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993380</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993385</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity with extra assumption values in API body\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993396</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993465</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check contain string successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993466</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993468</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993469</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993495</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993532</millis>
+  <sequence>31</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException: Cannot invoke method split() on null object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993533</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993533</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993534</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity with extra assumption values in API body</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:13</date>
+  <millis>1551775993548</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name</property>
+  <property name="description">Create entity with invalid/Blank entity category name</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create entity with invalid-Blank entity category name.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:14</date>
+  <millis>1551775994126</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity with invalid-Blank entity category name\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996401</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\API-test\\Reports\\New Test Suite\\20190305_142259\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b2d826be-20ab-4367-a12d-88df052993cd</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996406</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996408</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity with invalid-Blank entity category name\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996408</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996410</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check contain string successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996411</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996412</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996412</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996413</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996415</millis>
+  <sequence>61</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException: Cannot invoke method split() on null object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996415</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996416</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996417</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity with invalid-Blank entity category name</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996423</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body</property>
+  <property name="description">Create entity without creation fields in API body</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create entity without creation fields in API body.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:16</date>
+  <millis>1551775996673</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity without creation fields in API body\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999464</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\API-test\\Reports\\New Test Suite\\20190305_142259\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">80362932-bb71-466b-b505-c50048e19d41</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999469</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999471</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create entity without creation fields in API body\&amp;quot;, [\&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;Authorization\&amp;quot;:Authorization]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999472</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containsString(Response, \&amp;quot;Error while creating project data\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999474</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check contain string successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999474</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containsString(Response, \&amp;quot;Error while creating project data\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999479</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999479</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999481</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999482</millis>
+  <sequence>91</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException: Cannot invoke method split() on null object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999483</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999483</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999484</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create entity without creation fields in API body</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999491</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data</property>
+  <property name="description">Create project with incorrect assumption data</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create project with incorrect assumption data.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:19</date>
+  <millis>1551775999797</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project with incorrect assumption data\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001588</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\API-test\\Reports\\New Test Suite\\20190305_142259\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">c2d14e14-b618-47b7-955a-2ee7d1aca537</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001592</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001593</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project with incorrect assumption data\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001594</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001594</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check contain string successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001595</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001595</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001595</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001595</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001596</millis>
+  <sequence>121</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException: Cannot invoke method split() on null object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001596</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001597</millis>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001597</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project with incorrect assumption data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001600</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId</property>
+  <property name="description">Create project with invalid OrgId</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create project with invalid OrgId.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:21</date>
+  <millis>1551776001900</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project with invalid org id\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004180</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\API-test\\Reports\\New Test Suite\\20190305_142259\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ce71ebc4-9310-4e6a-809c-380a223de005</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004185</millis>
+  <sequence>136</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004185</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project with invalid org id\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004186</millis>
+  <sequence>138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containsString(Response, \&amp;quot;Access Denied.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004188</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check contain string successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004189</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containsString(Response, \&amp;quot;Access Denied.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004189</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004190</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004191</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004192</millis>
+  <sequence>147</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException: Cannot invoke method split() on null object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004193</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004193</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004194</millis>
+  <sequence>150</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project with invalid OrgId</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004200</millis>
+  <sequence>151</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions</property>
+  <property name="description">Create project without adding data for all assumptions</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create project without adding data for all assumptions.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:24</date>
+  <millis>1551776004569</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project without adding data for all assumptions\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007807</millis>
+  <sequence>165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\API-test\\Reports\\New Test Suite\\20190305_142259\\requests\\main\\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ced4e3cc-7be0-48a1-8a98-80d3b8029a40</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007811</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007812</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project without adding data for all assumptions\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007813</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007814</millis>
+  <sequence>171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check contain string successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007815</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containsString(Response, \&amp;quot;The application has encountered an error, Please retry.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007815</millis>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007816</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007816</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007817</millis>
+  <sequence>177</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException: Cannot invoke method split() on null object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007818</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tc_ids = getTestCaseVariables()[\&amp;quot;testrail_tc_id\&amp;quot;].split(\&amp;quot;,\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007818</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : afterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007818</millis>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project without adding data for all assumptions</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-05T14:23:27</date>
+  <millis>1551776007822</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name</property>
+  <property name="description">Create project without project name</property>
+  <property name="id">Test Cases/MercatusTestCases/ProjectTestCases/Create project without project name</property>
+  <property name="source">E:\\API-test\\Test Cases\\MercatusTestCases\\ProjectTestCases\\Create project without project name.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-05T14:23:28</date>
+  <millis>1551776008083</millis>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;Mercatus/Projects/Create Entity/Create project without project name\&amp;quot;, [\&amp;quot;Authorization\&amp;quot;:Authorization, \&amp;quot;url3\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(1, 1), \&amp;quot;OrgId\&amp;quot;:findTestData(\&amp;quot;Create Entity\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>

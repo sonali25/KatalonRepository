@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project without project name</description>
+   <name>Create project without project name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0c8b311-67f3-4a30-ba71-a7d24eb64d88</testCaseGuid>
+   <variable>
+      <defaultValue>'36505673'</defaultValue>
+      <description></description>
+      <id>5c52f8cd-8639-4301-a950-15d211d130a2</id>
+      <masked>false</masked>
+      <name>testrail_tc_id</name>
+   </variable>
+</TestCaseEntity>
